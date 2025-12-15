@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meaza's Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="top-section">
+            <div class="image">
+                <img src="profile.png" alt="my profile" class="profile-pic">
+            </div>
+
+            <div class="text">
+                <h1>HELLO!<br> MY NAME IS MEAZA YOSEF</h1>
+                <p>
+                    I am a 3rd year Software Engineering student at Adama Science and Technology University.
+                    Now I have joined the CSEC DEV bootcamp to improve my skills in web development.
+                    I love coding, solving problems, and learning new technologies like HTML, CSS, and JavaScript. 
+                    In my free time, I enjoy reading books.
+                </p>
+            </div>
+        </div>
+        <button id="formbtn">Contact Me</button>
+
+        <form id="contactform" style="display: none;">
+            <h3>Send Message</h3>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </div>     
+
+    <!-- Link to the JS file -->
+    <script src="form.js"></script>
+</body>
+</html>
