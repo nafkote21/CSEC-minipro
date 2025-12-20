@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ToDO List App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="app">
-        <h1>Todo Loost App</h1>
+        <h2><img src="todo.png" alt="Todo List Image" class="todo-image">Todo List App </h2> 
         <form class="todo-form"> 
             <input type="text" placeholder="Add a new task">
             <button type="submit">Add Task</button>
         </form>
-    </div>
+    
     <div class="list">
         <ul class="todo-list"> 
+            <li><img id="my" src="uncheck.png" alt="Checkmark"> task 1</li>
+            <li><img id="my" src="uncheck.png" alt="Checkmark"> task 2</li>
+            <li><img id="my" src="uncheck.png" alt="Checkmark"> task 3</li>
+            <li><img id="my" src="uncheck.png" alt="Checkmark"> task 4</li>
         </ul>
     </div>
-    
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
