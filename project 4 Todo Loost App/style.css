@@ -4,7 +4,7 @@ body{
     
 }
 .app{
-    background-color: rgb(73, 167, 167);
+    background-color: rgb(153, 196, 196);
     width: 400px;
     padding: 20px;
     margin: 50px auto;
@@ -22,6 +22,9 @@ img{
     border-radius: 13px;
     background-color: rgba(0, 0, 0, 0.5);;
 }
+.taskinput{
+    color: aliceblue;
+}
 button{
     padding: 10px 10px;
     background-color: #28a745;
@@ -36,4 +39,24 @@ ul li{
     cursor: pointer;
     margin-top: 20px;
 
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+.complete-btn {
+    background: #00cc44;
+    color: white;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+}
+.delete-btn{
+    padding: 17px 19px;
+    height: 25px;
+    width: 24px;
+    display: inline;
+    margin-left: 60px;
 }
