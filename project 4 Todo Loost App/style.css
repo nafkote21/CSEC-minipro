@@ -10,8 +10,8 @@ body{
     margin: 50px auto;
 }
 img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 .todo-form input{
     width: 70%;
@@ -52,11 +52,7 @@ ul li{
 .delete-btn {
     background: red;
     color: white;
-}
-.delete-btn{
-    padding: 17px 19px;
-    height: 25px;
-    width: 24px;
-    display: inline;
-    margin-left: 60px;
+    height: 15px;
+    width:50px;
+    margin-left: 70px;
 }

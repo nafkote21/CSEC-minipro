@@ -14,7 +14,7 @@ taskForm.addEventListener('submit', function(e) {
     li.innerHTML = `
         <img src="uncheck.png" class="checkbox">
         <span class="task-text">${taskText}</span>
-        <button class="delete-btn">X</button>
+        <button class="delete-btn">delete</button>
     `;
 
     taskList.appendChild(li);
