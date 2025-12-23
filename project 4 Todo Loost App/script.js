@@ -37,3 +37,6 @@ taskList.addEventListener('click', function(e) {
         e.target.parentElement.remove();
     }
 });
+function white(){
+    document.querySelector('.taskinput').style.backgroundColor="white";
+}
