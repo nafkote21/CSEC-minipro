@@ -1,0 +1,74 @@
+body { 
+    font-family: sans-serif; 
+    transition: 0.3s; 
+    margin: 0;
+    padding: 0;
+}
+.header { 
+    display: flex; 
+    justify-content: center; 
+    padding: 20px ; 
+    background: #b4a3a3;  
+}
+.task-item { 
+    padding: 10px; 
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.completed span { 
+    text-decoration: line-through;
+    color: gray; 
+}
+
+.dark-mode-active { 
+    background-color: #1a1a1a; 
+    color: white; 
+}
+.header.dark { 
+    background-color: #333; 
+    color: white; }
+
+.stats-page {
+  padding: 40px;
+  text-align: center;
+  min-height: 100vh;
+ 
+}
+.task-input{
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    height: 35px;
+}
+nav{
+    padding:20px;
+    display: flex;
+    gap: 100px;
+}
+
+.dark-mode-active .stats-card {
+  background: #2a2a2a;
+  border-color: #444;
+  color: white;
+}
+
+
+
+@media (max-width: 480px) {
+  .stats-card {
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 600px) {
+    .header { flex-direction: column; 
+            text-align: center; }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+}
